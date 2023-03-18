@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+:root {
+  --font-family1: "Poppins", sans-serif;
+  --font-family2: "PT Serif", serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+}
+article {
+  padding: 0 16em;
+}
+.header {
+  padding-top: 2.875em;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+}
+header .title {
+  font-family: var(--font-family2);
+  font-weight: 700;
+  font-size: 36px;
+}
+.title-description {
+  max-width: 432px;
+  line-height: 27px;
+}
+.title-description h5 {
+  font-family: var(--font-family1);
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.title-description p {
+  font-family: var(--font-family1);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/* Main Section */
+.main-section {
+  margin-top: 6em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+}
+img {
+  width: 100%;
+}
+.img1 {
+  position: relative;
+  width: 238px;
+  height: 426.5px;
+}
+.img1 .person-title {
+  position: absolute;
+  width: 102px;
+  top: 45px;
+  left: 206px;
+  font-family: var(--font-family2);
+  font-weight: 400;
+  font-size: 12px;
+  transform: rotate(90deg);
+  text-transform: uppercase;
+  line-height: 12px;
+}
+.img1 .person-name {
+  font-family: var(--font-family1);
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.align-self {
+  margin-top: 66px;
+}
+footer {
+  margin-top: 100px;
+  margin-bottom: 24px;
+}
+footer p {
+  color: #a9a9a9;
+  font-family: var(--font-family1);
+  font-weight: 600;
+  font-size: 14px;
+}
+@media (max-width: 600px) {
+  article {
+    padding: 0 1em;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .title {
+    font-size: 34px;
+  }
+  .title-description {
+    margin-top: 35px;
+    max-width: 333px;
+  }
+  .title-description p {
+    font-size: 15px;
+  }
+  .img1 {
+    width: 138.72px;
+    height: 261.4px;
+  }
+  .img1 .person-title {
+    left: 100px;
+    top: 45px;
+  }
+  .align-self {
+    margin-top: 0;
+  }
+  .align-small {
+    margin-top: 48px;
+  }
+  .main-section {
+    gap: 10px;
+  }
+}
