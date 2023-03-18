@@ -29,7 +29,7 @@
 
 ## Overview
 
-![screenshot](screenshots/Screenshot%202023-03-18%20235307.png)
+![screenshot](Screenshots/Screenshot%202023-03-18%20235307.png)
 
 ### Built With
 
